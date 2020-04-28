@@ -1,6 +1,8 @@
 # EKOScreeningTask
-Eko Screening Task
-Task 1
+
+Given time is exactly 90 minutes
+
+# Task 1
 Consider the example below
 You have an object of 2 arrays coming from the server. An array of all users, and an array of all messages.
 
@@ -31,7 +33,8 @@ function normalizeReceivedData(receivedData) {
 
 Bonus
 Consider that there could be millions of messages and thousands of users. How could you improve the solution in order to optimize for performance?
-Task 2
+
+# Task 2
 Consider examples below
 Example 1:
 Input: "ekoapp"
@@ -57,9 +60,7 @@ function equalShiftsAmount(input) {
   // Write your code here
 }
 
-
-
-Task 3
+# Task 3
 Consider examples below.
 Example 1:
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
