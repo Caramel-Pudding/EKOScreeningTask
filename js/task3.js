@@ -6,7 +6,7 @@ const val22 = 291;
 // I've got to admit i don't belive myself to be very good at handling linked lists
 
 function sumLinkedList(l1, l2) {
-  return linkedListToInt(l1) + linkedListToInt(l2);
+  return buildALinkedList(linkedListToInt(l1) + linkedListToInt(l2));
 }
 
 function linkedListToInt(node) {
